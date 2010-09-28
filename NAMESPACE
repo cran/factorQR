@@ -1,0 +1,14 @@
+useDynLib(factorQR)
+
+importFrom(lattice, xyplot)
+
+export(checkFcn, factorQR, makeData, bayesQR)
+
+S3method(summary,factorQR)
+S3method(print, factorQR)
+S3method(plot, factorQR)
+S3method(print, summary.factorQR)
+S3method(summary, bayesQR)
+S3method(print, bayesQR)
+S3method(print, summary.bayesQR)
+S3method(plot, bayesQR)
